@@ -579,10 +579,10 @@ main section {
     box-shadow: 0 0 20px #1a1a1a
 }
 
-main section:hover {
+/*main section:hover {
     -webkit-transform: scale(1.1);
     transform: scale(1.1)
-}
+}*/
 
 main section h2 {
     border-top: 1px solid #4d4d4d;
