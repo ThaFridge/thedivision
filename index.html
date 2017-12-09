@@ -86,18 +86,37 @@ setInterval(function time(){
                 </div>
             </ul>
         </section>
-        <!--
+       
         <section class="unified redditBox toggleButton">
-            <h2>The Division Subreddit related resources</h2>
+            <h2>Feedback</h2>
             <ul>
                 <li class="description"><span>Click to show useful Resources posted to the Subreddit.</span></li>
                 <div id="extendReddit" class="toggleBox">
-                    <li><span class="link-name">Open Beta FAQ</span><span class="link-url"><a target="_blank" href="https://www.reddit.com/r/thedivision/comments/44xm1a/open_beta_faq_updates/">READ IT. Holy cow.</a></span></li>
-                    <li><span class="link-name">The Division Subreddit</span><span class="link-url"><a target="_blank" href="http://reddit.com/r/thedivision/">reddit.com/r/thedivision</a></span></li>
+                   <div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://thedivision-thafridge-nl.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            
                 </div>
             </ul>
         </section>
-
+<!--
         <section class="unified toolsBox toggleButton">
             <h2>Tools!</h2>
             <ul>
@@ -161,6 +180,7 @@ setInterval(function time(){
     </script>
     <script src="scripts/vendor.js"></script>
     <script src="scripts/main.js"></script>
+<script id="dsq-count-scr" src="//thedivision-thafridge-nl.disqus.com/count.js" async></script>
 </body>
 
 </html>
