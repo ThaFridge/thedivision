@@ -8,6 +8,6 @@ This project is and should be always community driven. If you want to contribute
 Also there're no rules except for one: Be nice!
 
 #### Credits
-  * [ThaFrudge]()
-  * [Miodec]()
-  * [Angier]() for beeing awesome
+  * [ThaFridge]
+  * [Miodec]
+  * [Angier]
